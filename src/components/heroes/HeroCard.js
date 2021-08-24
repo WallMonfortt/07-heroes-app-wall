@@ -9,7 +9,7 @@ export const HeroCard = ({
   characters
 }) => {
   return (
-    <div className="card animate__animated animate__fadeInRight" style={{maxWidth:540}}>
+    <div className="card animate__animated animate__fadeInRight m-2" style={{maxWidth:540}}>
       <div className="row no-gutters">
         <div className="col-md-4">
           <img src={`assets/heroes/${id}.jpg`} className="card-img mt-2 mb-2" alt={superhero} />
